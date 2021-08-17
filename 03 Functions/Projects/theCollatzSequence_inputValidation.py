@@ -14,5 +14,5 @@ print("Enter a Number : ", end="")
 try:
     num = int(input())
     print("\nReturning : ",collatz(num))
-except:
+except ValueError:
     print("ERROR : Enter only integers!!!")
